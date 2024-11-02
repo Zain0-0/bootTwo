@@ -1,0 +1,374 @@
+/* nav-bar */
+#top-nav {
+  background-color: #daaa00;
+  padding: 0 8%;
+}
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-left: 25px !important;
+}
+#search-box {
+  background: #fcc302;
+  border-radius: 0;
+  box-shadow: 5px 10px 11px 0px #00000021;
+  position: relative;
+  left: 47px;
+  color: white;
+}
+#search-box::placeholder {
+  color: white;
+}
+#search-btn {
+  position: relative;
+  z-index: 999;
+  background-color: #00bec9;
+  color: white;
+  border-radius: 0px;
+  border: 2px solid white;
+  margin: 0px;
+  height: fit-content  !important;
+}
+.w-25 {
+  width: 35% !important;
+}
+#hero {
+  background-color: #fcc302;
+}
+#hero-text h1{
+  font-size: 60px;
+}
+#hero-text p{
+    font-size: 20px;
+}
+#hero-text-btn1{
+    border-color: #00bec9;
+    background-color: #00bec9;
+    color: white;
+}
+#hero-text-btn2{
+    border:2px solid white;
+    color: white;
+    margin-left: 15px;
+}
+
+#hero-img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+@media only screen and (max-width:1200px){
+  #hero-text h1{
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width:1100px){
+    #hero-text h1{
+      font-size: 50px;
+    }
+  }
+
+  @media only screen and (max-width:1025px){
+    #hero-text h1{
+      font-size: 45px;
+    }
+  }
+
+@media only screen and (max-width: 992px) {
+  .navbar-collapse {
+    position: relative;
+    left: -20px;
+  }
+  button:not(:disabled) {
+    height: 35px !important;
+    margin: 10px 0px;
+  }
+  #search-form {
+    margin: 25px 0px;
+    position: relative;
+    left: -20px;
+  }
+  #hero-text p{
+    font-size: 15px;
+}
+#hero-text p, #hero-text h1{
+    margin-bottom:  15px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #search-form {
+    margin: 25px 0px;
+    position: relative;
+    left: -20px;
+  }
+  #hero-text p, #hero-text h1{
+    margin-bottom:  15px !important;
+  }
+  #hero-text h1{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  #search-form {
+    margin: 25px 0px;
+    position: relative;
+    left: -20px;
+  }
+  #top-nav {
+    padding: 0;
+  }
+  #hero{
+    padding: 10px !important;
+    display: flex !important ;
+    justify-content: center !important ;
+  }
+  #hero-text{
+    padding: 0px;
+    margin: 0px;
+  }
+  #hero-img{
+    margin-top: 20px;
+    height: 300px !important;
+    
+  }
+}
+
+/* service */
+
+#service{
+    padding-top: 10%;
+    padding: 5%;
+}
+#service-text h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+#service-text p{
+    font-size: 20px;
+}
+#service-text-btn{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(252, 195, 2);
+}
+#service-img img{
+   border-radius:5px;   
+}
+
+@media only screen and (max-width:1140px){
+    #service-text h2{
+        font-size: 35px;
+        margin-bottom: 25px !important;
+    }
+    #service-text p{
+        font-size: 18px;
+        margin-bottom: 25px !important;
+    }
+}
+@media only screen and (max-width:1020px){
+    #service-text h2{
+        font-size: 30px;
+        margin-bottom: 20px !important;
+    }
+    #service-text p{
+        font-size: 18px;
+        margin-bottom: 20px !important;
+    }
+    #service-text button{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    #service-text h2{
+        font-size: 25px;
+        margin-bottom: 15px !important;
+    }
+    #service-text p{
+        font-size: 15px;
+        margin-bottom: 15px !important;
+    }
+    #service-text button{
+        font-size: 18px;
+    }
+    
+}
+@media only screen and (max-width:576px){
+    #service-img{
+        padding: 10%;
+    }
+}
+
+/* Services Two */
+#serviceTwo{
+    background-color: #fcc302;
+    padding: 5%;
+}
+#serviceTwo-text{
+    padding: 3% 0%;
+}
+#serviceTwo-text h2{
+    font-size: 70px;
+    color: white;
+}
+#serviceTwo-text p{
+    font-size: 25px;
+    color: white;
+}
+
+#serviceTwo-img p,#serviceTwo-img h3{
+ color: white;
+}
+
+@media only screen and (max-width: 992px){
+    #serviceTwo-img p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #serviceTwo-img p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #serviceTwo-img h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #serviceTwo-img div{
+        margin-bottom: 40px;
+    }
+    #serviceTwo-img div img,#serviceTwo-img div h3,#serviceTwo-img div p{
+      margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 576px){
+    #serviceTwo-text h2{
+        font-size: 40px;
+    }
+    #serviceTwo-text p{
+        font-size: 20px;
+        
+    }
+}
+
+/*Counter  */
+#counter{
+    padding:70px 0px ;
+    background-image: linear-gradient(rgba(249, 202, 33, 0.845),rgba(252, 205, 50, 0.805)),url(../images/background.png);
+    background-size   :cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.counter-icons{
+    font-size: 70px;
+    color: white;
+}
+#counter p{
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width:768px){
+  #counter div {
+    margin-bottom: 30px;
+  }
+}
+
+/* blog */
+#blog{
+  padding: 50px 50px;
+}
+#blog-text{
+  text-align: center;
+  margin: 30px 0px;
+}
+#blog-text h2{
+  font-size: 70px;
+  font-weight: bold;
+}
+#blog-text p{
+  font-size: 20px;
+}
+#blog-img div{
+  margin-bottom: 50px;
+}
+.blog-img-text{
+  border: 3px solid rgba(68, 68, 68, 0.475);
+  border-top: 0px;
+  padding: 10px;
+
+}
+.blue-text{
+  color:#00bec9;
+}
+.link-blue{
+  text-decoration: none;
+  color:#00bec9;
+  font-size: 22px;
+}
+
+@media only screen and (max-width:768px){
+  #blog{
+    padding: 10px;
+  }
+  #blog-text h2{
+    font-size: 40px;
+  }
+  #blog-text p{
+    font-size: 18px;
+  }
+  #blog-img h4{
+    font-size: 25px;
+  }
+
+}
+
+/* footer */
+#footer{
+  background-color: rgb(52, 52, 52);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 70px 0px;
+}
+#footer a{
+  text-decoration: none;
+  color: white;
+}
+#footer-title{
+  text-align: end;
+}
+#footer-title h3,#footer-title p,#footer-title form{
+    margin-bottom: 10px ;
+}
+#send-btn{
+  position: relative;
+  z-index: 9;
+  color: white;
+  background-color: #00bec9;
+  border: 2px solid white;
+  border-radius: 0px;
+  margin: 0px;
+  height: fit-content !important;
+}
+#footer-title i{
+  padding-left:  7px;
+}
+
+@media only screen and (max-width:768px){
+  #footer{
+    text-align:center;
+    padding: 30px 0px;
+  }
+  #footer div{
+    margin: 30px 0px;
+  }
+  #footer-title{
+    text-align: center;
+  }
+}
+

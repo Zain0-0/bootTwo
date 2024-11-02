@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boot tow</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="icon" href="icons/favicon-16x16.png" type="image/jpeg">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" id="top-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand bd-warming w-25" href="#"><img src="images/Vector Smart Object (Double Click to Edit).png"
+          class="img-fluid"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link danger" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link danger" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link danger" href="#">Contact</a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex" id="search-form" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" id="search-box">
+          <button class="btn btn-outline-success" type="submit" id="search-btn"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- container -->
+  <div class="container-fluid">
+    <div class="row p-5 justify-content-evenly" id="hero">
+      <div class="col-md-6 col-11 pt-3 pb-3 text-white" id="hero-text">
+        <h1 class="mb-5 ">First I wanted to be
+          a veterinarian</h1>
+        <p class="mb-5">
+          Lorem Ipsum available but the majority have
+          suffered alteration in some form, by injected
+          humour randomised words.
+        </p>
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn" id="hero-text-btn1">Contact Us</button>
+            <button type="button" class="btn" id="hero-text-btn2">Our Services</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-4 justify-self-end d-none d-md-block">
+        <img id="hero-img" src="images/Place Your Image Here (Double Click to Edit).png" alt="" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div class="row justify-content-evenly" id="service">
+      <div class="col-md-5" id="service-text">
+        <h2 class="mb-5 ">As a veterinarian and <br>
+          lover of animals.</h2>
+        <p class="mb-5">
+          Lorem Ipsum available but the majoty
+          suffered alteration in some form, by
+          humour randomised words.
+        </p>
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn" id="service-text-btn">Our Services</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4  d-md-block" id="service-img">
+        <img src="images/dog2.png" class="img-fluid" alt="">
+      </div>
+    </div>
+
+    <!-- services two -->
+    <div class="row text-center" id="serviceTwo">
+      <div class="col-12" id="serviceTwo-text">
+        <h2>TiTle Here</h2>
+        <p>
+          Lorem Ipsum available, but the majority have <br>
+          suffered alteration in some form.
+        </p>
+      </div>
+      <div class="col-12">
+        <div class="row justify-content-evenly" id="serviceTwo-img">
+          <div class="col-md-3">
+            <img src="images/dog3-1.png" class="img-fluid" alt="">
+            <h3>Veterinarian</h3>
+            <p>Lorem Ipsum available, but <br>
+              the majority have suffered <br>
+              alteration in some.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="images/dog3-2.png" class="img-fluid" alt="">
+            <h3>Veterination Care</h3>
+            <p>Lorem Ipsum available, but <br>
+              the majority have suffered <br>
+              alteration in some.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="images/dog3-3.png" class="img-fluid" alt="">
+            <h3>Dental Care</h3>
+            <p>Lorem Ipsum available, but <br>
+              the majority have suffered <br>
+              alteration in some.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- counter -->
+    <div class="row  justify-content-center text-center text-white" id="counter">
+      <div class="col-md-3 ">
+        <i class="bi bi-heart-pulse counter-icons"></i>
+        <p>+34782</p>
+        <h3>Happy Clients</h3>
+      </div>
+      <div class="col-md-3">
+        <i class="bi bi-lungs counter-icons"></i>
+        <p>+44567</p>
+        <h3>Departament</h3>
+      </div>
+      <div class="col-md-3">
+        <i class="bi bi-capsule counter-icons"></i>
+        <p>+54763</p>
+        <h3>Vaccinations</h3>
+      </div>
+    </div>
+
+    <!-- blog -->
+    <div class="row" id="blog">
+      <div class="col-12" id="blog-text">
+        <h2>Recent Posts</h2>
+        <p>
+          Lorem Ipsum available, but the majority have <br>
+          suffered alteration in some form.
+        </p>
+      </div>
+      <div class="col-12">
+        <div class="row justify-content-evenly" id="blog-img">
+          <div class="col-md-3">
+            <img src="images/doctor-1.png" class="img-fluid" alt="">
+            <div class="blog-img-text">
+              <h4>As a veterinarian and <br>
+                lover of animals</h4>
+              <p class="blue-text">FEBRUARY 09, 2020</p>
+              <p>Lorem Ipsum available, but <br>
+                the majority have suffered <br>
+                alteration in some.</p>
+              <a href="#" class="link-blue">Read More+</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img src="images/doctor-2.png" class="img-fluid" alt="">
+            <div class="blog-img-text">
+              <h4>As a veterinarian and <br>
+                lover of animals</h4>
+              <p class="blue-text">FEBRUARY 10, 2020</p>
+              <p>Lorem Ipsum available, but <br>
+                the majority have suffered <br>
+                alteration in some.</p>
+              <a href="#" class="link-blue">Read More+</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img src="images/doctor-3.png" class="img-fluid" alt="">
+            <div class="blog-img-text">
+              <h4>As a veterinarian and <br>
+                lover of animals</h4>
+              <p class="blue-text">FEBRUARY 11, 2020</p>
+              <p>Lorem Ipsum available, but <br>
+                the majority have suffered <br>
+                alteration in some.</p>
+              <a href="#" class="link-blue">Read More+</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="row justify-content-center" id="footer">
+      <div class="col-md-3">
+        <h3>About</h3>
+        <a href="#">History</a> <br>
+        <a href="#">Our Team</a> <br>
+        <a href="#">Brand Guidelines</a> <br>
+        <a href="#">Terms &amp; Conditions</a> <br>
+        <a href="#">Privacy Policy</a> <br>
+      </div>
+      <div class="col-md-3">
+        <h3>Services</h3>
+        <a href="#">How To Order</a> <br>
+        <a href="#">Our Products</a> <br>
+        <a href="#">Order Status</a> <br>
+        <a href="#">Promo</a> <br>
+        <a href="#">Payments Method</a> <br>
+      </div>
+      <div class="col-md-4 align-right" id="footer-title">
+        <h3>Title Here</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <form class="d-flex" id="search-form" role="search">
+          <input class="form-control me-2" type="search" placeholder="" aria-label="Search" id="search-box">
+          <button class="btn btn-outline-success " type="submit" id="send-btn"><i class="bi bi-send "></i></button>
+        </form>
+        <i class="bi bi-facebook "></i>
+        <i class="bi bi-instagram "></i>
+        <i class="bi bi-twitter "></i>
+        <i class="bi bi-whatsapp "></i>
+
+
+      </div>
+    </div>
+
+    <!-- container Fluid end -->
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
